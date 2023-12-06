@@ -1,0 +1,152 @@
+/* header */
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Helvetica Neue", Helvetica, Arial, 文泉驛正黑, "WenQuanYi Zen Hei", "Hiragino Sans GB", "儷黑 Pro", "LiHei Pro", "Heiti TC", 微軟正黑體, "Microsoft JhengHei UI", "Microsoft JhengHei", sans-serif;
+}
+.header_dn {
+    line-height: 80px;
+    background-color: rgb(255, 255, 255);
+    border-bottom: 2px solid #EBB353;
+}
+.header_dn .ul_nav {
+    margin: 0px;
+    padding-left: 10px;
+    padding-right: 25px;
+    list-style: none;
+}
+.header_dn .ul_nav li {
+    margin-left: 10px;
+    display: inline-block;
+    
+}
+.header_dn .ul_nav li .nav_a {
+    text-decoration: none;
+    font-size:x-large;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #EBB353;
+}
+#a {
+    font-size:x-large;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #EBB353;
+}
+.li i {
+    color: #EBB353;
+}
+
+/* article */
+.backgroud1 {
+    position: relative;
+    height: 600px;
+    width: 100%;
+    background-size: cover;
+    background-color:#f5f5f5;
+    display: flex;
+}
+/* .image1 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin: 0 auto;
+    min-height: 600px;
+    width: 1040px;
+    background-image: url(https://down-vn.img.susercontent.com/file/sg-11134004-7rbk0-lkqed7pgsfw7b1);
+} */
+#div1 {
+    position: absolute;
+    right: 410px;
+    top: 5px;
+}
+#div2 {
+    position: absolute;
+    top: 4px;
+    left: 8px;
+}
+.main_section {
+    margin: auto;
+    width: 400px;
+    height: 480px;
+    background-color: white;
+    border: 1px solid white;
+    box-shadow: 0 0 5px ghostwhite;
+    border-radius: 5px;
+}
+.main_section h3 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    /* border-bottom: 1px solid gainsboro; */
+}
+.main_section form {
+    text-align: center;
+}
+.main_section .input {
+    width: 330px;
+    height: 38px;
+    margin-bottom: 30px;
+}
+
+.but0 {
+    text-align: center;
+}
+.but1 {
+    width: 338px;
+    height: 38px;
+    padding: 1px 2px;
+    background-color: #EBB353;
+    color: rgb(0, 0, 0);
+    border: #2791A8;
+}
+.main a {
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 5px;
+}
+.a .p a{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#2791A8;
+    font-size: small;
+    padding-left: 30px;
+}
+.a .p a:hover {
+    text-decoration: underline;
+    color: tomato;
+}
+.change {
+    text-align: center;
+}
+.change .but2 {
+    width: 164px;
+    height: 38px;
+    background-color: #ffffff;
+    border:1px solid gainsboro;
+}
+.p1 {
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 0, 0);
+    font-size: small;
+}
+.change p #a1 {
+    color: #2791A8;
+}
+.change p #a1:hover {
+    text-decoration: underline;
+    color: tomato;
+}
+/* foooter */
+
+/* mobile : width < 740px   */
+@media screen and (max-width: 46.2500em) { 
+    aside,.foot1 {
+        display: none;
+    }
+    footer {
+        display: none;
+    }
+    .main_section {
+        width: 100%;
+        margin: 0 auto;
+    }
+}

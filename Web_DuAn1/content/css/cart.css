@@ -1,0 +1,308 @@
+.main1 {
+    background-color: rgb(246, 239, 231);
+}
+.header {
+    width: 100%;
+    height: 30px;
+    background-image: linear-gradient(#EBB353, #F0BD51);
+    /* position: relative; */
+}
+.content1 {
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 30px;
+    line-height: 30px;
+}
+.all_ul1 {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header ul {
+    display: block;
+}
+.header ul li {
+    list-style: none;
+    display: inline-block;
+    font-weight: 300;
+    font-size: .8125rem;
+    color: rgb(0, 0, 0);
+    margin-left: 0.3125rem;
+}
+.ul_head1 {
+    margin: 0px;
+}
+#ul_head3 {
+    margin-right: 40px;
+}
+
+.bnt {
+    width: 100px;
+    border: 0px;
+    border-radius: 15px;
+    background-color: white;
+}
+.bnt a:hover {
+    color: #ee4d2d;
+}
+.bnt a {
+    text-decoration: none;
+    color: #000000;
+    transition: all 0.3s ease;
+}
+
+
+
+
+/* article */
+.article {
+    position: relative;
+    min-height: 500px;
+    background-color: rgb(246, 239, 231);
+}
+
+/*  */
+.main_header {
+    position: -webkit-sticky;
+    position: sticky;
+    height: 90px;
+    line-height: 90px;
+    background-color: white;
+    top: 0px;
+    left: 0px;
+}
+/* logo */
+.picture1 {
+    margin-left: 70px;
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    line-height: 90px;
+    height: 90px;
+}
+.name_logo1 {
+    text-decoration: none;
+    font-size:x-large;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #EBB353;
+}
+.i1 {
+    font-size:large;
+    color: #EBB353;
+}
+.i1 i {
+    color: #EBB353;
+}
+.ul_logo1 {
+    margin-bottom: 0px;
+    margin-top: 0px;
+    list-style-type: none;
+    display: block;
+}
+.ul_logo1 li {
+    display: inline-block;
+}
+.ul_logo1 li input {
+    width: 775px;
+    height: 35px;
+    border: 2px solid #EBB353;
+    border-radius: 5px;
+    
+}
+.ul_logo1 li input:focus {
+   border: 120px;
+   /* background-color: #ee4d2d; */
+}
+.ul_logo1 li button {
+    width: 37px;
+    height: 37px;
+    border: 0px;
+    background-color: #EBB353;
+    border-radius: 5px;
+
+}
+.li_bnt1 {
+   margin-left: 0px;
+   margin-right: 0px;
+}
+.li_bnt1 button i {
+    color: white;
+}
+
+/* colum */
+.mainColum {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.mucluc {
+    height: 55px;
+    line-height: 55px;
+    background-color: white;
+    margin-top: 20px;
+    border-radius: 4px;
+    display: flex;
+    font-size: 14px;
+}
+.ML1 {
+    width: 50px;
+    text-align: center;
+}
+.ML2 {
+    width: 100px;
+    text-align: center;
+}.ML3 {
+    width: 450px;
+    text-align: center;
+}
+.ML4 {
+    width: 150px;
+    text-align: center;
+}
+.ML5 {
+    width: 150px;
+    text-align: center;
+}
+.ML6 {
+    width: 150px;
+    text-align: center;
+}
+.ML7 {
+    width: 150px;
+    text-align: center;
+}
+/* thong báo hết sp */
+#main_messager {
+  display: none;
+}
+#main_messager #thongBao_imageCart {
+ display: flex;
+}
+#main_messager #thongBao_imageCart img{
+    padding: 30px;
+    margin: auto;
+}
+/* listsp */
+.listSP {
+    max-width: 1200px;
+    margin-top: 15px;
+}
+.list {
+    height: 115px;
+    /* line-height: 115px; */
+    display: flex;
+    background-color: white;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    align-items: center;
+}
+
+.SP1 {
+    width: 50px;
+    text-align: center;
+}
+.SP2 {
+    width: 100px;
+    text-align: center;
+}
+.SP3 {
+    width: 450px;
+    text-align: left;
+}
+.SP4 {
+    width: 150px;
+    text-align: center;
+}
+.SP5 {
+    width: 150px;
+    text-align: center;
+}
+.SP6 {
+    width: 150px;
+    text-align: center;
+}
+.SP7 {
+    width: 150px;
+    text-align: center;
+}
+
+.SP2 img {
+    width: 80px;
+    height: 80px;
+}
+
+.SP2 a {
+    color: black;
+}
+.SP5 input {
+    width: 30px;
+    border-radius: 4px;
+}
+.SP7 button {
+    background-color: tomato;
+    color: white;
+    border-radius: 4px;
+    width: 50px;
+    height: 20px;
+    border: 0;
+    cursor:pointer;
+    transition-duration: 0.3s;
+}
+
+.SP7 button:hover {
+    background-color: teal;
+    transform: scale(1.1);
+}
+
+/* tính tiền */
+.total {
+    position: -webkit-sticky;
+    position: sticky;
+    bottom: 0;
+    width: 1200px;
+    height: 80px;
+    background-color: #EBB353;
+    margin-left: 158px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+}
+
+.listTT {
+    display: flex;
+    height: 80px;
+    align-items: center;
+    color: rgb(0, 0, 0);
+}
+
+.t1 {
+    width: 50px;
+    text-align: center;
+}
+.t2 {
+    width: 550px;
+    text-align: left;
+}
+.t3 {
+    width: 400px;
+    text-align: right;
+}
+.t4 {
+    width: 200px;
+    text-align: center;
+}
+
+.t4 button {
+    width: 100px;
+    height: 25px;
+    border-radius: 4px;
+    background-color: tomato;
+    color: rgb(255, 255, 255);
+    transition-duration: 0.3s;
+}
+.t4 button:hover {
+    background-color: teal;
+    color: white;
+    transform: scale(1.1);
+}
+

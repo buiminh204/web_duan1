@@ -1,0 +1,92 @@
+.table {
+    /* background-color: tomato; */
+    /* border: 1px solid black; */
+    width: 1100px;
+    margin-left: 35px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+.thead {
+     border: 1px solid black;
+    background-color: #EBB353;
+    padding: 12px 0 12px 0;
+    border-radius: 3px;
+    color: white;
+}
+.tbody {
+    /* border: 1px solid black; */
+    /* background-color: #ffffff; */
+    padding: 12px 0 12px 0;
+    border-radius: 3px;
+    margin-top: 10px;
+}
+.tbody tr {
+    margin-top: 10px;
+    border: 1px solid black;
+}
+.flex_tr {
+    border: 1px solid black;
+    border-radius: 3px;
+    padding: 10px 0 10px 0;
+    margin-bottom: 8px;
+}
+.tr {
+    display: flex;
+    align-items: center;
+    /* border: 1px solid black; */
+}
+.th {
+    text-align: center;
+    font-size: 0.95rem;
+}
+.bnt_list {
+    width: 80px;
+    border-radius: 4px;
+    background-color: tomato;
+    transition-duration: 0.3s;
+}
+.bnt_list:hover {
+    transform: scale(0.9);
+}
+.bnt_list a {
+    display: block;
+    color: white;
+    text-decoration: none;
+}
+
+.bnt_list1 {
+    width: 80px;
+    border-radius: 4px;
+    background-color: teal;
+    transition-duration: 0.3s;
+}
+.bnt_list1:hover {
+    transform: scale(0.9);
+}
+.bnt_list1 a {
+    display: block;
+    color: white;
+    text-decoration: none;
+}
+.bnt3 {
+    width: 100px;
+    height: 25px;
+    margin-left: 35px;
+    margin-top: 15px;
+    border-radius: 5px;
+    background-color: #F0CE3C;
+    transition-duration: 0.3s;
+}
+.bnt3:hover {
+    transform: scale(0.9);
+    background-color: tomato;
+    color: white;
+}
+.bnt3:hover a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.bnt3 a {
+    text-decoration: none;
+    color: black;
+}

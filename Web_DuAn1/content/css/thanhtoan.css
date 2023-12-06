@@ -1,0 +1,146 @@
+.article_thanhtoan {
+    min-height: 603px;
+}
+
+.article_thanhtoan .thongTin_nguoiNhan {
+    max-width: 1000px;
+    height: 300px;
+    margin: 20px auto;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.article_thanhtoan .thongTin_nguoiNhan .tieuDe_thongtin {
+    padding: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    /* color: tomato; */
+}
+
+.thongTin_nguoiNhan .form_main {
+    max-width: 700px;
+}
+
+.thongTin_nguoiNhan .form_main form .form__row {
+    display: flex;
+}
+
+.form__row .form__label {
+    padding-left: 20px;
+    min-width: 100px;
+}
+
+.form__row+.form__row {
+    margin-top: 20px;
+}
+
+.form__row .form__input {
+    flex: 1;
+    padding: 5px 0 5px 0;
+    border-radius: 3px;
+}
+
+/*  */
+.article_thanhtoan .sanPham_thanhToan {
+    max-width: 1000px;
+    min-height: 150px;
+    margin: auto;
+    background-color: white;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.article_thanhtoan .sanPham_thanhToan .tieuDe_thanhToan {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.tieuDe_thanhToan .TTSP1 {
+    width: 25%;
+    padding-left: 20px;
+}
+
+.tieuDe_thanhToan .TTSP2 {
+    width: 30%;
+    text-align: left;
+}
+
+.tieuDe_thanhToan .TTSP3 {
+    width: 15%;
+    text-align: center;
+    font-size: 14px;
+    color: gray;
+}
+
+.tieuDe_thanhToan .TTSP4 {
+    text-align: center;
+    width: 15%;
+    font-size: 14px;
+    color: gray;
+}
+
+.tieuDe_thanhToan .TTSP5 {
+    text-align: center;
+    width: 15%;
+    font-size: 14px;
+    color: gray;
+}
+
+.sanPham_thanhToan .thongTin_SP_thanhToan {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.thongTin_SP_thanhToan + .thongTin_SP_thanhToan {
+    margin-top: 10px;
+}
+
+.thongTin_SP_thanhToan .boxTT1 {
+    width: 25%;
+    padding-left: 20px;
+}
+.thongTin_SP_thanhToan .boxTT1 img {
+    width: 25%;
+}
+.thongTin_SP_thanhToan .boxTT2 {
+    width: 30%;
+}
+
+.thongTin_SP_thanhToan .boxTT3 {
+    width: 15%;
+    text-align: center;
+}
+
+.thongTin_SP_thanhToan .boxTT4 {
+    width: 15%;
+    text-align: center;
+}
+
+.thongTin_SP_thanhToan .boxTT5 {
+    width: 15%;
+    text-align: center;
+}
+
+/* đặt hàng */
+.box_datHang {
+    max-width: 1000px;
+    margin: auto;
+    height: 40px;
+    line-height: 40px;
+    background-color: rgb(255, 255, 255);
+}
+.box_datHang .item_datHang {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+.item_datHang button {
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: tomato;
+    border-radius: 2px;
+}
